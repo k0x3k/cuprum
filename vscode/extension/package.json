@@ -19,7 +19,7 @@
       }
     ]
   },
-  "description": "The Copper design language. Generated from universe.nix — do not edit.",
+  "description": "Copper on charcoal. A warm, quiet theme for long sessions, in dark and light.",
   "displayName": "Copper (gl1tch)",
   "engines": {
     "vscode": "^1.60.0"
@@ -38,5 +38,5 @@
     "type": "git",
     "url": "https://github.com/k0x3k/copper-theme"
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
