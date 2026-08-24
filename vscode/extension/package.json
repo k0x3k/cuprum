@@ -8,12 +8,12 @@
     ],
     "themes": [
       {
-        "label": "Copper",
+        "label": "Cuprum Dark",
         "path": "./themes/copper-color-theme.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Copper Light",
+        "label": "Cuprum Light",
         "path": "./themes/copper-light-color-theme.json",
         "uiTheme": "vs"
       }
@@ -36,7 +36,7 @@
   "publisher": "gl1tch",
   "repository": {
     "type": "git",
-    "url": "https://github.com/k0x3k/copper-theme"
+    "url": "https://github.com/k0x3k/cuprum"
   },
-  "version": "0.1.4"
+  "version": "0.1.5"
 }

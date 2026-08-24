@@ -12,7 +12,7 @@ network topology.
 ## Install
 
 ```sh
-git clone https://github.com/k0x3k/copper-theme && ./copper-theme/install.sh
+git clone https://github.com/k0x3k/cuprum && ./cuprum/install.sh
 ```
 
 Rerunning is safe: existing ghostty/starship configs are never overwritten —
