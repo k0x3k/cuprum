@@ -20,7 +20,7 @@
     ]
   },
   "description": "Copper on charcoal. A warm, quiet theme for long sessions, in dark and light.",
-  "displayName": "Copper (gl1tch)",
+  "displayName": "Cuprum",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -38,5 +38,5 @@
     "type": "git",
     "url": "https://github.com/k0x3k/copper-theme"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
