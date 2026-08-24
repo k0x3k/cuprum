@@ -1,0 +1,22 @@
+# GENERATED from universe.nix by mech portable build --work-safe.
+add_newline = false
+format = '$hostname$directory$git_branch$git_status$character'
+
+[hostname]
+ssh_only = false
+format = '[$hostname](bold #DA8A47) '
+
+[directory]
+style = 'bold #79B1CD'
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+style = '#77CDB4'
+
+[git_status]
+style = '#E1A84C'
+
+[character]
+success_symbol = '[>](#DA8A47)'
+error_symbol = '[>](#D65F47)'

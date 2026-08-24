@@ -1,0 +1,23 @@
+# GENERATED from universe.nix — do not edit by hand.
+background = #F2F0EC
+foreground = #202120
+cursor-color = #9B5A3E
+selection-background = #C2D1C5
+selection-foreground = #202120
+
+palette = 0=#202120
+palette = 1=#C13F25
+palette = 2=#007861
+palette = 3=#985D00
+palette = 4=#37718B
+palette = 5=#9C5473
+palette = 6=#007779
+palette = 7=#C8C5BF
+palette = 8=#696E69
+palette = 9=#A61E00
+palette = 10=#00624A
+palette = 11=#7A4A00
+palette = 12=#155D7A
+palette = 13=#823E5A
+palette = 14=#005F61
+palette = 15=#FBFAF7

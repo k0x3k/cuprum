@@ -1,0 +1,275 @@
+/* GENERATED from universe.nix through the Copper theme extension. */
+:root {
+  --copper-accent: var(--vscode-focusBorder);
+  --copper-steel: var(--vscode-symbolIcon-keywordForeground);
+  --copper-oxide: var(--vscode-symbolIcon-classForeground);
+  --copper-moss: var(--vscode-symbolIcon-stringForeground);
+  --copper-brass: var(--vscode-symbolIcon-numberForeground);
+  --copper-ink: var(--vscode-editor-foreground);
+  --copper-muted: var(--vscode-descriptionForeground);
+  --copper-border: var(--vscode-widget-border);
+  --copper-field: var(--vscode-editor-background);
+  --copper-plate: var(--vscode-textBlockQuote-background);
+  --copper-well: var(--vscode-textCodeBlock-background);
+}
+
+body {
+  color: var(--copper-ink);
+  background: var(--copper-field);
+}
+
+::selection {
+  color: var(--vscode-editor-selectionForeground, var(--copper-ink));
+  background: var(--vscode-editor-selectionBackground);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 680;
+  line-height: 1.22;
+  text-wrap: balance;
+}
+
+h1 {
+  color: var(--copper-accent);
+  font-size: 1.72em;
+  border-bottom-color: color-mix(in srgb, var(--copper-accent) 44%, transparent);
+}
+
+h2 {
+  color: var(--copper-steel);
+  font-size: 1.43em;
+  border-bottom-color: color-mix(in srgb, var(--copper-steel) 36%, transparent);
+}
+
+h3 {
+  color: var(--copper-oxide);
+  font-size: 1.24em;
+}
+
+h4 {
+  color: var(--copper-moss);
+  font-size: 1.1em;
+}
+
+h5 {
+  color: var(--copper-brass);
+  font-size: 1em;
+}
+
+h6 {
+  color: var(--copper-muted);
+  font-size: 0.83em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+a,
+a code {
+  color: var(--copper-accent);
+}
+
+a[href^="http:"],
+a[href^="https:"] {
+  color: var(--copper-steel);
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--vscode-textLink-activeForeground);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.16em;
+}
+
+strong { color: var(--copper-ink); }
+em { color: var(--copper-muted); }
+del {
+  color: var(--copper-muted);
+  text-decoration-color: var(--vscode-editorError-foreground);
+}
+mark {
+  color: var(--copper-ink);
+  background: var(--vscode-editor-selectionBackground);
+  outline: 1px solid var(--copper-accent);
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--copper-border) 16%,
+    var(--copper-accent) 50%,
+    var(--copper-border) 84%,
+    transparent
+  );
+}
+
+blockquote {
+  margin: 1.1em 0;
+  padding: 0.8em 1em;
+  color: var(--copper-muted);
+  background: var(--copper-plate);
+  border: 1px solid var(--copper-border);
+  border-left: 2px solid var(--copper-accent);
+  border-radius: 4px;
+}
+blockquote > :first-child { margin-top: 0; }
+blockquote > :last-child { margin-bottom: 0; }
+
+ul li::marker,
+ol li::marker {
+  color: var(--copper-accent);
+  font-weight: 700;
+}
+input[type="checkbox"] { accent-color: var(--copper-accent); }
+
+code:not(pre code) {
+  padding: 0.12em 0.34em;
+  color: var(--copper-oxide);
+  background: var(--vscode-textPreformat-background);
+  border: 1px solid var(--copper-border);
+  border-radius: 3px;
+}
+
+pre {
+  color: var(--copper-ink);
+  background: var(--copper-well);
+  border: 1px solid var(--copper-border);
+  border-left: 2px solid var(--copper-accent);
+  border-radius: 5px;
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--copper-ink) 4%, transparent);
+}
+pre code { color: inherit; }
+.code-block-copy-button {
+  border-color: var(--copper-border);
+  background: var(--copper-plate);
+}
+.code-block-copy-button:hover { color: var(--copper-accent); }
+
+table {
+  border-spacing: 0;
+  border: 1px solid var(--copper-border);
+  border-radius: 5px;
+  overflow: hidden;
+}
+th,
+td,
+table > tbody > tr + tr > td {
+  border-color: var(--copper-border) !important;
+}
+th {
+  color: var(--copper-accent);
+  background: var(--vscode-sideBarSectionHeader-background);
+  font-weight: 680;
+}
+tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--copper-plate) 58%, transparent);
+}
+tbody tr:hover { background: var(--vscode-list-hoverBackground); }
+
+img {
+  border: 1px solid var(--copper-border);
+  border-radius: 5px;
+}
+details {
+  padding: 0.65em 0.8em;
+  background: var(--copper-plate);
+  border: 1px solid var(--copper-border);
+  border-radius: 5px;
+}
+summary {
+  color: var(--copper-accent);
+  cursor: pointer;
+  font-weight: 650;
+}
+
+/* highlight.js: steel machinery, oxide names, moss strings and brass values. */
+.hljs-keyword,
+.hljs-literal,
+.hljs-meta-keyword,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: var(--copper-steel);
+}
+
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.function_,
+.hljs-built_in,
+.hljs-type,
+.hljs-attr,
+.hljs-attribute,
+.hljs-builtin-name,
+.hljs-section {
+  color: var(--copper-oxide);
+}
+
+.hljs-string,
+.hljs-meta-string,
+.hljs-regexp,
+.hljs-template-tag {
+  color: var(--copper-moss);
+}
+.hljs-number,
+.hljs-symbol,
+.hljs-bullet {
+  color: var(--copper-brass);
+}
+.hljs-comment,
+.hljs-quote,
+.hljs-doctag {
+  color: var(--copper-muted);
+  font-style: italic;
+}
+.hljs-variable,
+.hljs-template-variable,
+.hljs-subst,
+.hljs-params,
+.hljs-function,
+.hljs-formula {
+  color: var(--copper-ink);
+}
+.hljs-link { color: var(--vscode-textLink-foreground); }
+.hljs-meta { color: var(--copper-brass); }
+.hljs-addition {
+  color: var(--vscode-gitDecoration-addedResourceForeground);
+  background: var(--vscode-diffEditor-insertedTextBackground);
+}
+.hljs-deletion {
+  color: var(--vscode-gitDecoration-deletedResourceForeground);
+  background: var(--vscode-diffEditor-removedTextBackground);
+}
+
+/* The current Markdown editor uses CodeMirror token classes. */
+.tok-keyword,
+.tok-tagName,
+.tok-labelName { color: var(--copper-steel); }
+.tok-typeName,
+.tok-propertyName,
+.tok-definition,
+.tok-function,
+.tok-variableName.tok-definition { color: var(--copper-oxide); }
+.tok-string,
+.tok-regexp { color: var(--copper-moss); }
+.tok-number,
+.tok-bool,
+.tok-null { color: var(--copper-brass); }
+.tok-comment {
+  color: var(--copper-muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}

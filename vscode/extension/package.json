@@ -1,0 +1,42 @@
+{
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "markdown.previewStyles": [
+      "./markdown-preview.css"
+    ],
+    "themes": [
+      {
+        "label": "Copper",
+        "path": "./themes/copper-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Copper Light",
+        "path": "./themes/copper-light-color-theme.json",
+        "uiTheme": "vs"
+      }
+    ]
+  },
+  "description": "The Copper design language. Generated from universe.nix — do not edit.",
+  "displayName": "Copper (gl1tch)",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "keywords": [
+    "theme",
+    "copper",
+    "warm",
+    "dark",
+    "light"
+  ],
+  "license": "MIT",
+  "name": "copper-theme",
+  "publisher": "gl1tch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k0x3k/copper-theme"
+  },
+  "version": "0.1.0"
+}
