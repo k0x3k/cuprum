@@ -41,11 +41,11 @@ fi
 
 # ---- vs code: marketplace first, bundled vsix as fallback ------------------
 if command -v code >/dev/null 2>&1; then
-  code --install-extension gl1tch.copper-gl1tch --force >/dev/null 2>&1 ||
-    code --install-extension "$repo"/vscode/copper-gl1tch-*.vsix --force >/dev/null
+  code --install-extension gl1tch.cuprum --force >/dev/null 2>&1 ||
+    code --install-extension "$repo"/vscode/cuprum-*.vsix --force >/dev/null
   say "vscode   Copper installed — pick it under Preferences: Color Theme"
 else
-  say "vscode   'code' CLI not found — install vscode/copper-gl1tch-*.vsix by hand"
+  say "vscode   'code' CLI not found — install vscode/cuprum-*.vsix by hand"
 fi
 
 # ---- optional CLI tools ----------------------------------------------------

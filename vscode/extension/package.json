@@ -32,11 +32,11 @@
     "light"
   ],
   "license": "MIT",
-  "name": "copper-gl1tch",
+  "name": "cuprum",
   "publisher": "gl1tch",
   "repository": {
     "type": "git",
     "url": "https://github.com/k0x3k/copper-theme"
   },
-  "version": "0.1.1"
+  "version": "0.1.2"
 }

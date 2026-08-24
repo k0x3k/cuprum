@@ -24,7 +24,7 @@ add. `./install.sh --tools` additionally installs the Brewfile (macOS).
 | Piece | What it does |
 | --- | --- |
 | `ghostty/` | Copper dark + light terminal themes and a reference config |
-| `vscode/` | The Copper theme as an extension (`.vsix`, also on the marketplace as `gl1tch.copper-gl1tch`) |
+| `vscode/` | The Copper theme as an extension (`.vsix`, also on the marketplace as `gl1tch.cuprum`) |
 | `starship.toml` | Prompt in the same palette |
 | `zsh/copper.zsh` | Shell colours (ls, completion, syntax highlighting) |
 | `Brewfile` | The work-safe CLI tool set, optional |
