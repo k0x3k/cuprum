@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Language="en-US" Id="copper-theme" Version="0.1.0" Publisher="gl1tch" />
+    <Identity Language="en-US" Id="copper-gl1tch" Version="0.1.0" Publisher="gl1tch" />
     <DisplayName>Copper (gl1tch)</DisplayName>
     <Description xml:space="preserve">The Copper design language. Generated from universe.nix.</Description>
     <Categories>Themes</Categories>
