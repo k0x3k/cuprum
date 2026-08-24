@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Language="en-US" Id="cuprum" Version="0.1.3" Publisher="gl1tch" />
+    <Identity Language="en-US" Id="cuprum" Version="0.1.4" Publisher="gl1tch" />
     <DisplayName>Cuprum</DisplayName>
     <Description xml:space="preserve">Copper on charcoal. A warm, quiet theme for long sessions, in dark and light.</Description>
     <Categories>Themes</Categories>
+    <!-- GalleryFlags is the element the marketplace actually reads for
+         public/private availability — verified against a live vsce-built
+         vsix. A Services.Flags <Property> is ignored. -->
+    <GalleryFlags>Public</GalleryFlags>
     <Properties>
       <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.60.0" />
-      <Property Id="Microsoft.VisualStudio.Services.Flags" Value="Public" />
+      <Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/k0x3k/copper-theme" />
     </Properties>
   </Metadata>
   <Installation><InstallationTarget Id="Microsoft.VisualStudio.Code" /></Installation>
